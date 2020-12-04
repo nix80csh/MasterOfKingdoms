@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.autocommit">true</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.release_mode">auto</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://61.35.101.131:8082/mok_dev</property>
+        <property name="hibernate.connection.username">mok_dev</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.ejb.cfgfile">/hibernate.cfg.xml</property>
+        <property name="hibernate.ejb.discard_pc_on_close">false</property>
+        <property name="hibernate.enable_lazy_load_no_trans">false</property>
+        <property name="hibernate.query.jpaql_strict_compliance">true</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.transaction.flush_before_completion">false</property>
+        <property name="hibernate.use_identifier_rollback">false</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <property name="hibernate.validator.autoregister_listeners">false</property>
+        <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+        
+        <!-- <property name="hibernate.archive.autodetection">none</property>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.check_nullability">false</property>
+        <property name="hibernate.connection.autocommit">true</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.release_mode">auto</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://61.35.101.131:8082/mok_dev</property>
+        <property name="hibernate.connection.username">mok_dev</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.ejb.cfgfile">/hibernate.cfg.xml</property>
+        <property name="hibernate.ejb.discard_pc_on_close">false</property>
+        <property name="hibernate.enable_lazy_load_no_trans">false</property>
+        <property name="hibernate.query.jpaql_strict_compliance">true</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.transaction.flush_before_completion">false</property>
+        <property name="hibernate.use_identifier_rollback">false</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <property name="hibernate.validator.autoregister_listeners">false</property> -->
+        
+        <mapping class="com.mok.entity.GiftSetItem" />
+        <mapping class="com.mok.entity.Continent" />
+        <mapping class="com.mok.entity.Cure" />
+        <mapping class="com.mok.entity.MapObject" />
+        <mapping class="com.mok.entity.RegionTile" />
+        <mapping class="com.mok.entity.Weapon" />
+        <mapping class="com.mok.entity.EnemyUnit" />
+        <mapping class="com.mok.entity.Region" />
+        <mapping class="com.mok.entity.Research" />
+        <mapping class="com.mok.entity.Training" />
+        <mapping class="com.mok.entity.Item" />
+        <mapping class="com.mok.entity.Account" />
+        <mapping class="com.mok.entity.InvenMaterial" />
+        <mapping class="com.mok.entity.Structure" />
+        <mapping class="com.mok.entity.InvenWeapon" />
+        <mapping class="com.mok.entity.WeaponMaterial" />
+        <mapping class="com.mok.entity.EnemyUnitBranch" />
+        <mapping class="com.mok.entity.Coupon" />
+        <mapping class="com.mok.entity.Material" />
+        <mapping class="com.mok.entity.InvenItem" />
+        <mapping class="com.mok.entity.LordBranch" />
+        <mapping class="com.mok.entity.Branch" />
+        <mapping class="com.mok.entity.Lord" />
+        <mapping class="com.mok.entity.GiftSet" />
+        <mapping class="com.mok.entity.MapObjectRegion" />
+        <mapping class="com.mok.entity.Production" />
+        <mapping class="com.mok.entity.Tile" />
+        
+    </session-factory>
+</hibernate-configuration>

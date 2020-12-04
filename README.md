@@ -1,1 +1,1 @@
-# masterofkingdoms
+# MasterOfKingdoms

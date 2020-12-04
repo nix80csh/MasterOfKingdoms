@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="public" match-name="account"/>
+  <table-filter match-schema="public" match-name="branch"/>
+  <table-filter match-schema="public" match-name="continent"/>
+  <table-filter match-schema="public" match-name="coupon"/>
+  <table-filter match-schema="public" match-name="cure"/>
+  <table-filter match-schema="public" match-name="enemy_unit"/>
+  <table-filter match-schema="public" match-name="enemy_unit_branch"/>
+  <table-filter match-schema="public" match-name="gift_set"/>
+  <table-filter match-schema="public" match-name="gift_set_item"/>
+  <table-filter match-schema="public" match-name="inven_item"/>
+  <table-filter match-schema="public" match-name="inven_material"/>
+  <table-filter match-schema="public" match-name="inven_weapon"/>
+  <table-filter match-schema="public" match-name="item"/>
+  <table-filter match-schema="public" match-name="lord"/>
+  <table-filter match-schema="public" match-name="lord_branch"/>
+  <table-filter match-schema="public" match-name="map_object"/>
+  <table-filter match-schema="public" match-name="map_object_region"/>
+  <table-filter match-schema="public" match-name="material"/>
+  <table-filter match-schema="public" match-name="production"/>
+  <table-filter match-schema="public" match-name="region"/>
+  <table-filter match-schema="public" match-name="region_tile"/>
+  <table-filter match-schema="public" match-name="research"/>
+  <table-filter match-schema="public" match-name="structure"/>
+  <table-filter match-schema="public" match-name="tile"/>
+  <table-filter match-schema="public" match-name="training"/>
+  <table-filter match-schema="public" match-name="weapon"/>
+  <table-filter match-schema="public" match-name="weapon_material"/>
+</hibernate-reverse-engineering>
